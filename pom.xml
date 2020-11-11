@@ -11,6 +11,7 @@
     <modules>
         <module>servlet-01-helloServlet</module>
         <module>servlet-02-firstServlet</module>
+        <module>servlet-03-servletContext</module>
     </modules>
 
     <dependencies>
