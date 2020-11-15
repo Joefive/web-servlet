@@ -20,6 +20,8 @@ public class HelloServlet extends HttpServlet {
         ServletContext servletContext = this.getServletContext();
         String userName = "韩三狗";
         servletContext.setAttribute("userName",userName);
+        String initParameter = servletContext.getInitParameter("url");
+        resp.getWriter().println(initParameter);
 
     }
 

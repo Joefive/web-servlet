@@ -9,7 +9,31 @@
          version="4.0" metadata-complete="true">
 </web-app>
 ```
+###解决无法导出xml
+```xml
+<build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
+```
 
 ##2.ServletContext对象：
  * 启动的时候回创建几个Context对象，代表当前web应用
- * 1.共享数据：可以在另外一个servlet中拿到。需要先存后读，先执行数据存入的Servlet，在执行读取数据的Servlet
+ * 1.共享数据：可以在另外一个servlet中拿到。需要先存后读，先执行数据存入的Servlet，在执行读取数据的Servlet；
+ * 2.重定向；
