@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/servlet-02-firstServlet" />
     <file type="web" url="file://$PROJECT_DIR$/servlet-03-servletContext" />
+    <file type="web" url="file://$PROJECT_DIR$/servlet-04-servletResponse" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

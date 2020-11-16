@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/servlet-02-firstServlet" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/servlet-03-servletContext" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/servlet-04-servletResponse" charset="UTF-8" />
   </component>
 </project>
