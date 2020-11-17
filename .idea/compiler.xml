@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="servlet-02-firstServlet" />
         <module name="servlet-01-helloServlet" />
         <module name="servlet-03-servletContext" />
-        <module name="servlet-02-firstServlet" />
+        <module name="servlet-04-servletResponse" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="servlet-04-servletResponse" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
